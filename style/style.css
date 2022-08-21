@@ -149,13 +149,33 @@ body {
   text-align: center;
   padding: 80px;
   margin-bottom: 50px;
+  
+  animation: tituloUno 2s;
 }
+@keyframes tituloUno{
+  from{
+    font-size: 8px;
+
+/* parecer y desaparecer */
+
+  }
+
+  to {
+    font-size: 20px;
+
+    /* parecer y desaparecer */
+
+  }
+}
+
+
 
 .article__portada h1 {
   font-size: 70px;
   margin-bottom: 0px;
   color: rgb(255, 255, 255);
   letter-spacing: 3px;
+  
 }
 
 .article__portada a {
@@ -767,6 +787,24 @@ align-items: center;
 }
 .sectionContenedorGaleria figure img{
   width: 100%;
+  transition: 2s all;
+}
+.sectionContenedorGaleria figure img:hover{
+  transform: scale(1.2);
+  height: auto;
+
+}
+#animationTitle{
+  animation: titulo 4s;
+}
+@keyframes titulo{
+  from{
+    font-size: 30px;
+  }
+  to {
+    font-size: 50px;
+
+  }
 }
 .contenedorImagenGaleria{
   border: 3px white solid;
@@ -804,7 +842,12 @@ align-items: center;
   }
   .article__portada{
     width: 60%;
+    
   }
+ 
+
+
+
   .article__portada h1 {
     font-size: 50px;
     text-align: center;
