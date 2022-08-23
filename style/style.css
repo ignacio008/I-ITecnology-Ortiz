@@ -149,22 +149,15 @@ body {
   text-align: center;
   padding: 80px;
   margin-bottom: 50px;
-  
   animation: tituloUno 2s;
 }
 @keyframes tituloUno{
   from{
     font-size: 8px;
 
-/* parecer y desaparecer */
-
   }
-
   to {
     font-size: 20px;
-
-    /* parecer y desaparecer */
-
   }
 }
 
@@ -393,7 +386,18 @@ body {
   text-align: center;
   font-size: 60px;
   margin-bottom: 0px;
+  animation: tituloSize 2s;
 }
+@keyframes tituloSize{
+  from{
+    font-size: 40px;
+
+  }
+  to {
+    font-size: 60px;
+  }
+}
+
 .section__contactanos{
   max-width: 1200px;
   display: flex;
