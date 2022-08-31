@@ -117,6 +117,7 @@ body {
 }
 
 .navbar{
+  width: 600px;
   font-size: 19px;
   --bs-navbar-hover-color: rgb(252, 147, 9);
 }
@@ -854,6 +855,9 @@ align-items: center;
   .plan-card{
     margin-bottom: 30px;
   }
+  .navbar{
+max-width: 400px;
+  }
 }
 @media screen and (max-width: 480px) {
   .section__portada{
@@ -867,6 +871,9 @@ align-items: center;
   .article__portada{
     width: 90%;
     
+  }
+  .navbar{
+    max-width: 300px;
   }
  
 
