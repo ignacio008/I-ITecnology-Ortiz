@@ -1,0 +1,61 @@
+
+/* FOOTER */
+.footer__redesMenu {
+  max-width: 100%;
+  padding: 20px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  .redSociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .footer__redSocial {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 15px;
+      flex-wrap: wrap;
+      &:hover{
+        border-bottom: 1px solid $colorA;
+        color: $colorA;
+      }
+      i {
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+      }
+    }
+    a {
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+    }
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    li {
+      padding: 10px;
+      a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        &:hover{
+          border-bottom: 1px solid rgb(252, 147, 9);
+          color: $colorA;
+        }
+      }
+    }
+  }
+}
+
+
+
+.fondoPiePagina {
+  max-width: 100%;
+  background-color: rgb(39, 39, 39);
+  padding: 7px;
+  text-align: center;
+  height: 60px;
+}
