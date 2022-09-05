@@ -1,3 +1,8 @@
+.footer__redesMenu ul li a:hover, .footer__redesMenu .redSociales .footer__redSocial:hover {
+  border-bottom: 1px solid rgb(252, 147, 9);
+  color: rgb(252, 147, 9);
+}
+
 .header {
   width: 1200px;
   margin: auto;
@@ -88,10 +93,6 @@
   margin-left: 15px;
   flex-wrap: wrap;
 }
-.footer__redesMenu .redSociales .footer__redSocial:hover {
-  border-bottom: 1px solid rgb(252, 147, 9);
-  color: rgb(252, 147, 9);
-}
 .footer__redesMenu .redSociales .footer__redSocial i {
   font-size: 30px;
   color: rgb(255, 255, 255);
@@ -113,11 +114,6 @@
   color: rgb(255, 255, 255);
   font-size: 18px;
 }
-.footer__redesMenu ul li a:hover {
-  border-bottom: 1px solid rgb(252, 147, 9);
-  color: rgb(252, 147, 9);
-}
-
 .fondoPiePagina {
   max-width: 100%;
   background-color: rgb(39, 39, 39);
@@ -136,13 +132,6 @@ body {
 
 #footer {
   grid-area: footer;
-}
-
-.gridContacto {
-  display: grid;
-  grid-template-areas: "header header" "section__imagen section__imagen" "title title" "section__contactanos section__contactanos" "footer footer";
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto 1fr auto auto;
 }
 
 .gridGaleria {
@@ -243,6 +232,9 @@ body {
 
 /* CARDS */
 .section__cards {
+  margin: auto;
+  flex-wrap: wrap;
+  flex-direction: row;
   width: 1200px;
   margin: auto;
   display: flex;
@@ -867,7 +859,7 @@ button:active {
     align-items: center;
     padding: 20px;
   }
-  .article__portada {
+  .section__portada .article__portada {
     width: 90%;
   }
   .navbar {
@@ -887,7 +879,7 @@ button:active {
     align-items: center;
     justify-content: center;
   }
-  .article_cards {
+  .section__cards .article_cards {
     width: 90%;
     margin-bottom: 20px;
   }

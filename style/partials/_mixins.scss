@@ -1,0 +1,8 @@
+@mixin cards($largo,$displays,$justcenter) {
+  width: $largo;
+    margin: auto;
+    display: $displays;
+    justify-content: $justcenter;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
