@@ -1,0 +1,145 @@
+/* SERVICIOS  CARDS */
+.section__contenedorCards {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  grid-area: section__contenedorCards;
+  .plan-card {
+    background: #fff;
+    width: 15rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    border-bottom: 4px solid #000446;
+    box-shadow: 0 6px 30px rgba(207, 212, 222, 0.3);
+    font-family: "Poppins", sans-serif;
+    margin-right: 50px;
+    &:hover{
+      box-shadow: 0px 0px 5px 5px rgb(255, 255, 255);
+    }
+    h2 {
+      margin-bottom: 15px;
+      font-size: 27px;
+      font-weight: 600;
+      span {
+        display: block;
+        margin-top: -4px;
+        color: #4d4d4d;
+        font-size: 12px;
+        font-weight: 400;
+      }
+    }
+    .etiquet-price {
+      position: relative;
+      background: #fdbd4a;
+      width: 14.46rem;
+      margin-left: -0.65rem;
+      padding: 0.2rem 1.2rem;
+      border-radius: 5px 0 0 5px;
+      p {
+        margin: 0;
+        padding-top: 0.4rem;
+        display: flex;
+        font-size: 1.9rem;
+        font-weight: 500;
+        &:before {
+          content: "$";
+          margin-right: 5px;
+          font-size: 15px;
+          font-weight: 300;
+        }
+        &::after {
+          content: "/ MXN";
+          margin-left: 5px;
+          font-size: 15px;
+          font-weight: 300;
+        }
+        
+      }
+      div {
+        position: absolute;
+        bottom: -23px;
+        right: 0px;
+        width: 0;
+        height: 0;
+        border-top: 13px solid #c58102;
+        border-bottom: 10px solid transparent;
+        border-right: 13px solid transparent;
+        z-index: -6;
+      }
+    }
+    .benefits-list {
+      margin-top: 16px;
+      ul {
+        padding: 0;
+        font-size: 14px;
+        li {
+          color: #4d4d4d;
+          list-style: none;
+          margin-bottom: 0.2rem;
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          padding: 5px;
+          svg {
+            width: 0.9rem;
+            fill: currentColor;
+          }
+          span {
+            font-weight: 300;
+          }
+        }
+      }
+      i {
+  color: green;
+}
+    }
+    .button-get-plan {
+      display: flex;
+      justify-content: center;
+      margin-top: 1.2rem;
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #000446;
+        color: #fff;
+        padding: 10px 15px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 0.8rem;
+        letter-spacing: 0.05rem;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        &:hover {
+          transform: translateY(-3%);
+          box-shadow: 0 3px 10px rgba(207, 212, 222, 0.9);
+        }
+        
+      }
+      .svg-rocket {
+        margin-right: 10px;
+        width: 0.9rem;
+        fill: currentColor;
+      }
+      i {
+        margin-right: 10px;
+      }
+    }
+  }
+  
+}
+
+
+
+
+
+

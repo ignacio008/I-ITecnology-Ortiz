@@ -1,5 +1,5 @@
 @mixin cards($largo,$displays,$justcenter) {
-  width: $largo;
+  max-width: $largo;
     margin: auto;
     display: $displays;
     justify-content: $justcenter;
