@@ -28,7 +28,9 @@
   text-align: center;
   margin-top: 2px;
 }
-
+.row{
+  justify-content: center;
+}
 .header__nav {
   padding: 0px;
   margin: 0px;
@@ -44,7 +46,6 @@
 }
 
 .navbar {
-  width: 600px;
   font-size: 19px;
   --bs-navbar-hover-color: rgb(252, 147, 9);
 }

@@ -31,6 +31,10 @@
   margin-top: 2px;
 }
 
+.row {
+  justify-content: center;
+}
+
 .header__nav {
   padding: 0px;
   margin: 0px;
@@ -46,7 +50,6 @@
 }
 
 .navbar {
-  width: 600px;
   font-size: 19px;
   --bs-navbar-hover-color: rgb(252, 147, 9);
 }
@@ -396,10 +399,6 @@ button:hover .svg-wrapper {
 
 button:hover svg {
   transform: translateX(1.2em) rotate(45deg) scale(1.1);
-}
-
-button:hover span {
-  transform: translateX(5em);
 }
 
 button:active {
@@ -881,5 +880,10 @@ body {
 @media screen and (max-width: 445px) {
   .section__parralax .article__parallax {
     padding: 180px;
+  }
+}
+@media screen and (max-width: 363px) {
+  .section__parralax .article__parallax {
+    padding: 130px;
   }
 }/*# sourceMappingURL=estilo.css.map */

@@ -351,3 +351,10 @@ body {
     }
   }
 }
+@media screen and (max-width: 363px) {
+  .section__parralax {
+    .article__parallax {
+      padding: 130px;
+    }
+  }
+}
